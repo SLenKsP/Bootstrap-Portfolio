@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.webpage:not(:first-child)::before {
+  content: " | ";
+  margin: 0 10px;
+  opacity: 0.2;
+}
+.webpage:hover {
+  font-weight: bold;
+}
+.header-row,
+.main {
+  width: 960px;
+}
+.main-section{
+    padding-bottom: 250px;
+}
+.name-header {
+  width: 200px;
+}
+.content {
+  line-height: 36px;
+  font-size: 18px;
+  position: relative;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    background-color: #666666;
+    color: #dddddd;
+    bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.col-md-4{
+    background-color:gray;
+}
+.portfolio-img{
+    /* position: absolute; */
+    float: left;
+}
+
+.portfolio-title{
+    position: absolute;
+    bottom: 10px;
+    width: 100%
+}
+
