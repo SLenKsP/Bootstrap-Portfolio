@@ -14,10 +14,6 @@ body{
 .webpage:hover {
   font-weight: bold;
 }
-.header-row,
-.main {
-  width: 960px;
-}
 .main-section{
     padding-bottom: 250px;
 }
