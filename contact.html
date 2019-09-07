@@ -66,31 +66,17 @@
                 </div>
               </div>
             <hr class="mt-0">
-          <p>
-            <img
-              src="./assets/images/Profile.png"
-              class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|} float-left mr-3 "
-              width="300"
-              alt="profile image"
-            />I am Sagar. I was born and brought up in Anand city. It is a
-            small town in the western India. I completed my schooling from
-            here. I have a Bachelor of Engineering Degree in Electronics and
-            Communication.
-          </p>
-          <p>
-            After completion of my College, I moved to London. I started
-            helping my Uncle in his small business. Soon after, I got a job as
-            a Technical Engineer in a Small company just outside of London
-            Metro. I worked there for nearly 6 years until I moved to US. Mid
-            of Nov. 2012, I moved to Lenexa, Kansas and I am here since. I
-            currently work at Garmin International as a Software Quality
-            Analyst.
-          </p>
-          <p>
-            I am married and I have 2 daughters of age 4 and 2 respectively.
-            My wife is a full time employee and works in a small manufacturing
-            company in Lenexa.
-          </p>
+          <div class="form-group">
+            <label for="firstname">Name</label>
+            <input type="text" class="form-control" name="name" id="firstname" aria-describedby="helpId" placeholder="John Smith">
+            <label for="personal-email">Email</label>
+            <input type="email" class="form-control" name="email" id="personal-email" aria-describedby="helpId" placeholder="example@gmail.com">
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea class="form-control" name="message" id="contact-message" rows="3" placeholder="Describe here..."></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Button</button>
+          </div>
         </div>
       </div>
     </div>
